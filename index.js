@@ -11,8 +11,8 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-const titleCased = () => {
-  let title = title.split(" ");
+const titleCased = (title) => {
+   title = title.split(" ");
     for (var i = 0, x = title.length; i < x; i++) {
         title[i] = title[i][0].toUpperCase() + title[i].substr(1);
     }
